@@ -1,10 +1,5 @@
 /*  =======================================================================
 
-Template:       Logiport - Logistic & Transport Service HTML5 Template
-Version:        1.0
-Last change:    03/10/25 
-Author:         https://themeforest.net/user/designsninja/portfolio
-
 ========================================================================= */
 
 html, body{
@@ -481,7 +476,7 @@ input:-ms-input-placeholder {
 
 /*** Carousel Hero Header Start ***/
 .hero-section {
-    background-image: url(../images/slide-1.jpg);
+/***background-image: url(../images/slide-1.jpg); ***/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -493,7 +488,7 @@ input:-ms-input-placeholder {
 }
 
 .hero-bg-half-1 {
-    background-image: url(../images/header-2.jpg);
+    background-image: url(../images/header-1.jpg);
    /*** clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%); ***/
     filter: grayscale(10%);
     transform: scale(100% - 50%);
@@ -508,7 +503,7 @@ input:-ms-input-placeholder {
 }
 
 .hero-bg-half-2 {
-    background-image: url(../images/header-1.jpg);
+    background-image: url(../images/header-2.jpg);
   /***  clip-path: polygon(37% 0%, 100% 0%, 100% 100%, 0% 100%); ***/
     filter: grayscale(10%);
     transform: scale(100% - 50%);
@@ -567,7 +562,7 @@ input:-ms-input-placeholder {
 
 /*** Carousel Hero Header Start ***/
 .header-carousel .header-carousel-item {
-    height: 700px;
+    height: 100vh;
 }
 
 .header-carousel .header-carousel-item p{
@@ -620,11 +615,75 @@ input:-ms-input-placeholder {
         padding-top: 45px;
     }
 
+ 
     .header-carousel.owl-carousel,
     .header-carousel .header-carousel-item {
-        height: 700px;
+        height: 70vh;
     }
 }
+
+@media (max-width: 801px) {
+    .header-carousel .header-carousel-item .carousel-caption {
+        padding-top: 45px;
+    }
+
+ 
+    .header-carousel.owl-carousel,
+    .header-carousel .header-carousel-item {
+        height: 65vh;
+    }
+}
+
+
+
+@media (max-width: 601px) {
+     .header-carousel.owl-carousel,
+    .header-carousel .header-carousel-item {
+        height: 45vh;
+    }
+     .carousel-caption {
+        padding-top: 18px;
+    }
+
+    .header-carousel.owl-carousel
+     {
+        height: 55vh;
+    }
+}
+
+
+
+@media (max-width: 401px) {
+     .header-carousel.owl-carousel,
+    .header-carousel .header-carousel-item {
+        height: 40vh;
+    }
+     .carousel-caption {
+        padding-top: 18px;
+    }
+
+    .header-carousel.owl-carousel
+     {
+        height: 45vh;
+    }
+}
+
+
+@media (max-width: 301px) {
+     .header-carousel.owl-carousel,
+    .header-carousel .header-carousel-item {
+        height: 30vh;
+    }
+     .carousel-caption {
+        padding-top: 18px;
+    }
+
+    .header-carousel.owl-carousel
+     {
+        height: 40vh;
+    }
+}
+
 /*** Carousel Hero Header End ***/
 
 
